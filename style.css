@@ -66,7 +66,7 @@ a:hover {
 
 #banner {
   /* CHANGE THE BANNER TO YOUR PICTURE! */
-  background-image: url('images/banner.jpg');
+  background-image: url('images/header.png');
   width: 100%;
   background-size: cover;
   height: 100vh;
