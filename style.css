@@ -3,18 +3,19 @@
 body {
   background: rgb(255, 255, 255);
   margin: 0;
+  font-family: 'Roboto Mono', sans-serif;
 }
 
 h1 {
   font-family: 'Roboto Mono', sans-serif;
-  color: red;
+  color: #F96D00;
   font-size: 40px;
 }
 
 h2 {
   font-size: 30px;
   font-family: 'Roboto Mono', sans-serif;
-  color: red;
+  color: #F96D00;
 }
 p {
   font-family: 'Roboto Mono', sans-serif;
@@ -26,11 +27,13 @@ li {
 
 a {
   text-decoration: none;
+  font-family: 'Roboto Mono', sans-serif;
   color: black;
 }
 
 a:hover {
   text-decoration: none;
+  font-family: 'Roboto Mono', sans-serif;
   color: black;
 }
 
@@ -38,7 +41,7 @@ a:hover {
 #navbar {
   width: 100%;
   height: 70px;
-  color: red;
+  color: #F96D00;
   text-align: center;
   position: relative;
 }
@@ -56,7 +59,7 @@ a:hover {
 }
 
 #navbar a {
-  color: red;
+  color: #F96D00;
   font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -67,24 +70,24 @@ a:hover {
 
 #banner {
   /* CHANGE THE BANNER TO YOUR PICTURE! */
-  background-image: url('banner2.jpg');
+  background-image: url('images/banner2.jpg');
   width: 100%;
   background-size: cover;
-  height: 300px;
+  height: 350px;
 }
 
 #banner-content {
-  padding: 150px;
+  padding: 170px;
   width: 100%;
 }
 
 /* ABOUT */
 #about {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 .card-about {
   padding: 50px;
-  height: 600px;
+  height: 350px;
   margin-bottom: 100px;
 }
 
@@ -93,33 +96,33 @@ a:hover {
 }
 
 .card-project-img {
-  background-image: url('https://unsplash.it/300/300?random');
+  background-image: url('images/banner2.jpg');
 }
 /* PROFILE SECTION */
 
 #profile-picture {
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  height: 260px;
+  width: 260px;
 }
 
 #profile-section {
-  text-align: center;
+  text-align: left;
 }
 #profile-section p {
-  padding: 100px 100px;
+  padding: 50px 50px;
 }
 
 /* PROJECTS */
 
 #projects {
-  background-color: #F5F7F9;
+  background-color: #F2F2F2;
   width: 100%;
   padding: 50px 0;
 }
 
 .header-title {
-  text-align: center;
+  text-align: left;
   width: 100%;
   padding: 80px 0;
 }
@@ -140,14 +143,14 @@ a:hover {
   background-color: rgb(200,200,200);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 230px;
+  height: 130px;
   border-radius: 3px 3px 0 0;
 }
 
 .card-project-content   {
   padding: 30px;
   padding: 38px;
-  font-weight: bold;
+  
 }
 
 /*CONTACT*/
@@ -298,23 +301,23 @@ a:hover {
 }
 
 .timeline-badge.primary {
-  background-color: red !important;
+  background-color: #F96D00!important;
 }
 
 .timeline-badge.success {
-  background-color: red !important;
+  background-color: #F96D00!important;
 }
 
 .timeline-badge.warning {
-  background-color: red !important;
+  background-color: #F96D00 !important;
 }
 
 .timeline-badge.danger {
-  background-color: red !important;
+  background-color: #F96D00 !important;
 }
 
 .timeline-badge.info {
-  background-color: red !important;
+  background-color: #F96D00!important;
 }
 
 .timeline-title {
